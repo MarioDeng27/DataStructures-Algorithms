@@ -12,11 +12,11 @@ void Swap(int * a, int * b);
 
 int main(void)
 {
-	int a[8] = {
-		4,2,6,1,7,3,9,0
+	int a[9] = {
+		4,2,6,1,7,3,9,0,3 
 	};
-	HeapSort(a,8);
-	Show(a,8);
+	HeapSort(a,9);
+	Show(a,9);
 	return 0;
 }
 
